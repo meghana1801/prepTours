@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>ABOUT US</title>
+        <link rel="stylesheet" href="aboutus.css"> 
+         <!-- font awesome cdn link  -->
+        <!-- <link rel="style sheet" href="https://stackpath.bootstrapcdn.com/fontawesome/4.7.0/css/fontawesome.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous"> -->
+        
+        <!-- swiper css link  -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+         <!-- font awesome cdn link  -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+         
+         <!-- using font awesome -->
+         <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+<!-- header section starts -->
+        <section class="header">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><img src="preptours_com.png" width="500"></a>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <!-- <i class='fa-solid fa-xmark'></i> -->
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="aboutus.html">ABOUT US</a></li>
+                        <!-- <li><a href="destinations">DESTINATIONS</a></li> -->
+                        <li><a href="packages.html">PACKAGES</a></li>
+                        <li><a href="book.html" class="btn">BOOK NOW</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                <!-- <div id="menu-btn" class="fas fa-bars" onclick="showMenu()"></div> -->
+            </nav>
+        </section>
+<!-- header section ends -->
+
+        <div class="heading" style="background:url(header-bg-1.png) no-repeat">
+          <h1>About us</h1>
+       </div>
+<!-- about section starts  -->
+       <section class="about">
+        <div class="row">
+            <div class="column">
+                <div class="image">
+                    <img src="home_slide4.jpg" alt="about" style="width:100%">
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <h3>Why choose us?</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure numquam nulla iusto corporis dolor commodi libero, vitae obcaecati optio rerum ab culpa nesciunt, earum mollitia quasi ipsam non. Aliquid, iure.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum, delectus voluptate aliquam quaerat iusto repellendus error nulla ab atque.</p>
+                  <div class="icons-container">
+                        <div class="icons">
+                            <i class="fas fa-map"></i>
+                            <span>Top Destinations</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-hand-holding-usd"></i>
+                            <span>Affordable Price</span>
+                        </div>
+                        <div class="icons">
+                             <i class="fas fa-headset"></i>
+                            <span>24/7 service</span>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     
+     <!-- about section ends -->
+     
+
+     <!-- reviews section starts  -->
+
+<!-- <section class="reviews">
+
+    <h1 class="heading-title"> CLIENTS REVIEWS </h1>
+ 
+    <div class="swiper reviews-slider">
+ 
+       <div class="swiper-wrapper">
+ 
+          <div class="swiper-slide slide">
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
+             <h3>john deo</h3>
+             <span>traveler</span>
+             <img src="images/pic-1.png" alt="">
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus repellendus et suscipit optio similique totam aut laborum ullam sequi! In!</p>
+             <h3>john deo</h3>
+             <span>traveler</span>
+             <img src="images/pic-2.png" alt="">
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus enim deserunt, ab at ea iste odio placeat doloribus eum dolores tempore obcaecati, dolore esse aperiam. Excepturi ad quo distinctio, dignissimos voluptate, dolores, saepe animi eum atque sint esse ab exercitationem!</p>
+             <h3>john deo</h3>
+             <span>traveler</span>
+             <img src="images/pic-3.png" alt="">
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus recusandae cum quibusdam odio dignissimos nemo?</p>
+             <h3>john deo</h3>
+             <span>traveler</span>
+             <img src="images/pic-4.png" alt="">
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
+             <h3>john deo</h3>
+             <span>traveler</span>
+             <img src="images/pic-5.png" alt="">
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
+             <h3>john deo</h3>
+             <span>traveler</span>
+             <img src="images/pic-6.png" alt="">
+          </div>
+ 
+       </div>
+ 
+    </div>
+    <script>
+      var swiper = new Swiper(".reviews-slider", {
+  grabCursor:true,
+  loop:true,
+  autoHeight:true,
+  spaceBetween: 20,
+  breakpoints: {
+     0: {
+       slidesPerView: 1,
+     },
+     700: {
+       slidesPerView: 2,
+     },
+     1000: {
+       slidesPerView: 3,
+     },
+  },
+});
+
+
+    </script>
+ </section>
+-->
+ <!-- reviews section ends  -->
+  
+
+ <!-- reviews -->
+ <section id="reviews">
+   <!-- heading --->
+   <div class="reviews-heading">
+       <span>Here is what our clients say!</span>
+       <h1>Reviews and Ratings</h1>
+   </div>
+   
+   <div class="reviews-box-container">
+      <!-- BOX-1 -->
+      <div class="reviews-box">
+         <!-- top ---->
+         <div class="box-top">
+            <!-- profile ----->
+            <div class="profile">
+               <!-- img ---->
+              <div class="profile-img">
+                 <img src="review-1.png"/>
+              </div>
+              <!-- name-and-username -->
+              <div class="name-user">
+                   <strong>John deol</strong>
+                   <span>@johnweb</span>
+              </div>
+            </div>
+            <!-- review-comment ------>
+            <div class="review-comment">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i> 
+               <!--Empty star-->
+            </div>
+         </div>
+
+         <!--Comments-->
+         <div class="client-comment">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, velit vel natus aliquam perferendis vero porro quibusdam itaque dolor laudantium ab! Laborum suscipit labore officia dolorum. Minima quibusdam beatae cumque!</p>
+         </div>
+      </div>
+      
+
+
+      <!-- BOX-2 -->
+      <div class="reviews-box">
+         <!-- top ---->
+         <div class="box-top">
+            <!-- profile ----->
+            <div class="profile">
+               <!-- img ---->
+              <div class="profile-img">
+                 <img src="review-2.png"/>
+              </div>
+              <!-- name-and-username -->
+              <div class="name-user">
+                   <strong>Vidya Verma</strong>
+                   <span>@vvweb</span>
+              </div>
+            </div>
+            <!-- review-comment ------>
+            <div class="review-comment">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half-o"></i> 
+               <!--Empty star-->
+            </div>
+         </div>
+
+         <!--Comments-->
+         <div class="client-comment">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, velit vel natus aliquam perferendis vero porro quibusdam itaque dolor laudantium ab! Laborum suscipit labore officia dolorum. Minima quibusdam beatae cumque!</p>
+         </div>
+      </div>
+      
+
+
+
+      <!-- BOX-3 -->
+      <div class="reviews-box">
+         <!-- top ---->
+         <div class="box-top">
+            <!-- profile ----->
+            <div class="profile">
+               <!-- img ---->
+              <div class="profile-img">
+                 <img src="review-3.png"/>
+              </div>
+              <!-- name-and-username -->
+              <div class="name-user">
+                   <strong>Michael</strong>
+                   <span>@micweb</span>
+              </div>
+            </div>
+            <!-- review-comment ------>
+            <div class="review-comment">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+               <i class="fa fa-star-o"></i> 
+               <!--Empty star-->
+            </div>
+         </div>
+
+         <!--Comments-->
+         <div class="client-comment">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, velit vel natus aliquam perferendis vero porro quibusdam itaque dolor laudantium ab! Laborum suscipit labore officia dolorum. Minima quibusdam beatae cumque!</p>
+         </div>
+      </div>
+      
+
+
+
+      <!-- BOX-4 -->
+      <div class="reviews-box">
+         <!-- top ---->
+         <div class="box-top">
+            <!-- profile ----->
+            <div class="profile">
+               <!-- img ---->
+              <div class="profile-img">
+                 <img src="review-4.png"/>
+              </div>
+              <!-- name-and-username -->
+              <div class="name-user">
+                   <strong>Deeksha Thomas</strong>
+                   <span>@deeweb</span>
+              </div>
+            </div>
+            <!-- review-comment ------>
+            <div class="review-comment">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i> 
+               <!--Empty star-->
+            </div>
+         </div>
+
+         <!--Comments-->
+         <div class="client-comment">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, velit vel natus aliquam perferendis vero porro quibusdam itaque dolor laudantium ab! Laborum suscipit labore officia dolorum. Minima quibusdam beatae cumque!</p>
+         </div>
+      </div>
+      
+   </div>
+</section>
+
+
+
+
+
+ 
+
+   <!-- footer section starts  -->
+
+   <section class="footer">
+    <!-- (A) STACK DIV ON TOP OF EACH OTHER  -->
+   <div id="demoA">
+       <div id="demoATop">
+           <div class="box-container">
+               <div class="box">
+                  <h3>Quick links</h3>
+                  <a href="index.html"> <i class="fas fa-angle-right"></i> Home</a>
+                  <a href="aboutus.html"> <i class="fas fa-angle-right"></i> About Us</a>
+                  <!-- <a href="destinations.html"> <i class="fas fa-angle-right"></i> Destinations</a> -->
+                  <a href="packages.html"> <i class="fas fa-angle-right"></i> Packages</a>
+                  <a href="book.html"> <i class="fas fa-angle-right"></i> Book</a>
+               </div>
+               <div class="box">
+                  <h3>Extra links</h3>
+                  <!-- <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+                  <a href="#"> <i class="fas fa-angle-right"></i> about us</a> -->
+                  <a href="#"> <i class="fas fa-angle-right"></i> Privacy Policy</a>
+                  <a href="#"> <i class="fas fa-angle-right"></i> Terms of Use</a>
+               </div>
+         
+               <div class="box">
+                  <h3>Contact Info</h3>
+                  <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                  <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                  <a href="#"> <i class="fas fa-envelope"></i> preptours@gmail.com </a>
+                  <a href="#"> <i class="fas fa-map"></i> Hyderabad, India - 500104 </a>
+               </div>
+         
+               <div class="box">
+                  <h3>Follow Us</h3>
+                  <a href="www.facebook.com"> <i class="fab fa-facebook-f"></i> Facebook </a>
+                  <a href="www.twitter.com"> <i class="fab fa-twitter"></i> Twitter </a>
+                  <a href="www.instagram.com"> <i class="fab fa-instagram"></i> Instagram </a>
+                  <a href="www.linkedlin.com"> <i class="fab fa-linkedin"></i> Linkedin </a>
+               </div>
+         
+            </div>
+         
+            <div class="credit"> Created by <span >Meghana</span> 
+               <!-- | All rights reserved!  -->
+           </div>
+       </div>
+       <div id="demoABack"></div>
+     </div>
+</section>
+
+<!-- footer section ends -->
+
+     <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+
+    </body>
+</html>

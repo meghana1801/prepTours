@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>HOME</title>
+        <link rel="stylesheet" href="styling.css"> 
+        <!-- <script src="script.js"></script> -->
+         <!-- font awesome cdn link  -->
+        <!-- <link rel="style sheet" href="https://stackpath.bootstrapcdn.com/fontawesome/4.7.0/css/fontawesome.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous"> -->
+        
+        <!-- swiper css link  -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+         <!-- font awesome cdn link  -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><img src="preptours_com.png" width="500"></a>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <!-- <i class="fa fa-times"></i> -->
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <!-- <i class='fa-solid fa-xmark'></i> -->
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="aboutus.html">ABOUT US</a></li>
+                        <!-- <li><a href="destinations">DESTINATIONS</a></li> -->
+                        <li><a href="packages.html">PACKAGES</a></li>
+                        <li><a href="book.html" class="btn">BOOK NOW</a></li>
+                    </ul>
+                </div>
+                <!-- <i class="fa fa-bars"></i> -->
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                <!-- <i class='fa-solid fa-bars'></i> -->
+
+                <!-- <div id="menu-btn" class="fas fa-bars" onclick="showMenu()"></div> -->
+
+            </nav>
+        </section>
+
+ <div class="book-heading" style="background:url(header-bg-3.png) no-repeat">
+   <h1>Book now</h1>
+</div>
+
+<!-- booking section starts  -->
+
+<section class="booking">
+
+   <h1 class="heading-title">Book your trip!</h1>
+
+   <form action="book_form.php" method="post" class="book-form">
+    <div class="row">
+      <div class="flex">
+         <div class="inputBox">
+            <span>name :</span>
+            <input type="text" placeholder="Enter your name" name="name">
+         </div>
+         <div class="inputBox">
+            <span>email :</span>
+            <input type="email" placeholder="Enter your email" name="email">
+         </div>
+         <div class="inputBox">
+            <span>phone :</span>
+            <input type="number" placeholder="Enter your number" name="phone">
+         </div>
+         <div class="inputBox">
+            <span>address :</span>
+            <input type="text" placeholder="Enter your address" name="address">
+         </div>
+         <div class="inputBox">
+            <span>where to :</span>
+            <input type="text" placeholder="Place you want to visit" name="location">
+         </div>
+         <div class="inputBox">
+            <span>how many :</span>
+            <input type="number" placeholder="Number of guests" name="guests">
+         </div>
+         <div class="inputBox">
+            <span>arrivals :</span>
+            <input type="date" name="Arrivals">
+         </div>
+         <div class="inputBox">
+            <span>leaving :</span>
+            <input type="date" name="Leaving">
+         </div>
+      </div>
+   
+      <input type="submit" value="submit" class="btn" name="send">
+    </div>
+   </form>
+
+</section>
+
+<!-- booking section ends -->
+
+
+
+         <!-- footer section starts  -->
+
+<section class="footer">
+    <!-- (A) STACK DIV ON TOP OF EACH OTHER  -->
+   <div id="demoA">
+       <div id="demoATop">
+           <div class="box-container">
+               <div class="box">
+                  <h3>Quick links</h3>
+                  <a href="index.html"> <i class="fas fa-angle-right"></i> Home</a>
+                  <a href="aboutus.html"> <i class="fas fa-angle-right"></i> About Us</a>
+                  <!-- <a href="destinations.html"> <i class="fas fa-angle-right"></i> Destinations</a> -->
+                  <a href="packages.html"> <i class="fas fa-angle-right"></i> Packages</a>
+                  <a href="book.html"> <i class="fas fa-angle-right"></i> Book</a>
+               </div>
+               <div class="box">
+                  <h3>Extra links</h3>
+                  <!-- <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+                  <a href="#"> <i class="fas fa-angle-right"></i> about us</a> -->
+                  <a href="#"> <i class="fas fa-angle-right"></i> Privacy Policy</a>
+                  <a href="#"> <i class="fas fa-angle-right"></i> Terms of Use</a>
+               </div>
+         
+               <div class="box">
+                  <h3>Contact Info</h3>
+                  <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                  <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                  <a href="#"> <i class="fas fa-envelope"></i> preptours@gmail.com </a>
+                  <a href="#"> <i class="fas fa-map"></i> Hyderabad, India - 500104 </a>
+               </div>
+         
+               <div class="box">
+                  <h3>Follow Us</h3>
+                  <a href="www.facebook.com"> <i class="fab fa-facebook-f"></i> Facebook </a>
+                  <a href="www.twitter.com"> <i class="fab fa-twitter"></i> Twitter </a>
+                  <a href="www.instagram.com"> <i class="fab fa-instagram"></i> Instagram </a>
+                  <a href="www.linkedlin.com"> <i class="fab fa-linkedin"></i> Linkedin </a>
+               </div>
+         
+            </div>
+         
+            <div class="credit"> Created by <span >Meghana</span> 
+               <!-- | All rights reserved!  -->
+           </div>
+       </div>
+       <div id="demoABack"></div>
+     </div>
+</section>
+
+<!-- footer section ends -->
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+         <script src="script.js"></script>
+   </body>
+</html>
